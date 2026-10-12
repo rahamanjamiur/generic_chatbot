@@ -39,8 +39,8 @@ A customizable, model-agnostic conversational AI chat widget for React applicati
    LLM_API_KEY=your_actual_api_key_here
 
    # Model Selection
-   LLM_MODEL_NAME=gemini-2.5-flash
-   LLM_TTS_MODEL_NAME=gemini-3.1-flash-tts-preview
+   LLM_MODEL_NAME=gemini-3.8-flash
+   LLM_TTS_MODEL_NAME=gemini-3.8-flash-tts
 
    # Optional Bot Branding
    VITE_BOT_NAME="AI Co-Worker"
@@ -63,8 +63,8 @@ All core placeholders and application settings are centralized in [`config.ts`](
 | Configuration Variable | Description | Default Placeholder |
 | :--- | :--- | :--- |
 | `LLM_API_KEY` | API Key for the LLM Provider | Reads from `process.env.LLM_API_KEY` |
-| `LLM_MODEL_NAME` | Model ID used for text generation | `gemini-2.5-flash` |
-| `LLM_TTS_MODEL_NAME` | Model ID used for Text-to-Speech | `gemini-3.1-flash-tts-preview` |
+| `LLM_MODEL_NAME` | Model ID used for text generation | `gemini-3.8-flash` |
+| `LLM_TTS_MODEL_NAME` | Model ID used for Text-to-Speech | `gemini-3.8-flash-tts` |
 | `BOT_NAME` | Name of your AI Assistant | `"AI Co-Worker"` |
 | `BOT_TITLE` | Header Title in Widget UI | `"AI Co-Worker"` |
 | `BOT_SUBTITLE` | Header Subtitle in Widget UI | `"Explore. Ask. Discover."` |
