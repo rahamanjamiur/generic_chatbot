@@ -11,16 +11,16 @@ export const LLM_API_KEY =
   process.env.API_KEY ||
   "";
 
-// Default LLM Model Name (e.g., gemini-2.5-flash, gpt-4o, claude-3-5-sonnet, etc.)
+// Default LLM Model Name (e.g., gemini-3.8-flash, gpt-4o, claude-3-5-sonnet, etc.)
 export const LLM_MODEL_NAME =
   process.env.LLM_MODEL_NAME ||
   process.env.VITE_LLM_MODEL_NAME ||
-  "gemini-2.5-flash";
+  "gemini-3.8-flash";
 
-// Default TTS Model Name (e.g., gemini-3.1-flash-tts-preview)
+// Default TTS Model Name (e.g., gemini-3.8-flash-tts)
 export const LLM_TTS_MODEL_NAME =
   process.env.LLM_TTS_MODEL_NAME ||
-  process.env.VITE_LLM_TTS_MODEL_NAME || "gemini-3.1-flash-tts-preview";
+  process.env.VITE_LLM_TTS_MODEL_NAME || "gemini-3.8-flash-tts";
 
 // Bot Identity & Branding
 export const BOT_NAME = process.env.VITE_BOT_NAME || "AI Co-Worker";
